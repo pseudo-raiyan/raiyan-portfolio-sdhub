@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div>
+      <h1 class="text-4xl text-center mt-10">Yo! Calculator</h1>
+    </div>
+    <div class="border w-fit m-auto mt-20">
+       <div class="p-10 ">
+        <input type="text" class="bg-gray-100 w-64 h-16 text-right text-4xl pr-5 outline-none border" id="input-here" />
+       </div> 
+
+       <div>
+
+         <div class="py-2 px-5 flex gap-4 flex gap-4">
+          <button class="border w-16 h-16 hover:bg-gray-100 text-3xl cursor-pointer" onclick="">C</button>
+          <button class="border w-16 h-16 hover:bg-gray-100 text-3xl cursor-pointer   ">.</button>
+
+        </div>
+        <div class="py-2 px-5 flex gap-4">
+          <button class="border w-16 h-16 hover:bg-gray-100 text-3xl cursor-pointer   ">9</button>
+          <button class="border w-16 h-16 hover:bg-gray-100 text-3xl cursor-pointer   ">8</button>
+          <button class="border w-16 h-16 hover:bg-gray-100 text-3xl cursor-pointer   ">7</button>
+          <button class="border w-16 h-16 hover:bg-gray-100 text-3xl cursor-pointer   ">/</button>
+
+        </div>
+        <div class="py-2 px-5 flex gap-4">
+          <button class="border w-16 h-16 hover:bg-gray-100 text-3xl cursor-pointer   ">6</button>
+          <button class="border w-16 h-16 hover:bg-gray-100 text-3xl cursor-pointer   ">5</button>
+          <button class="border w-16 h-16 hover:bg-gray-100 text-3xl cursor-pointer   ">4</button>
+          <button class="border w-16 h-16 hover:bg-gray-100 text-3xl cursor-pointer   ">-</button>
+
+        </div>
+        <div class="py-2 px-5 flex gap-4">
+          <button class="border w-16 h-16 hover:bg-gray-100 text-3xl cursor-pointer   ">3</button>
+          <button class="border w-16 h-16 hover:bg-gray-100 text-3xl cursor-pointer   ">2</button>
+          <button class="border w-16 h-16 hover:bg-gray-100 text-3xl cursor-pointer   ">1</button>
+          <button class="border w-16 h-16 hover:bg-gray-100 text-3xl cursor-pointer   ">+</button>
+
+        </div>
+        <div class="py-2 px-5 flex gap-4">
+          <button class="border w-16 h-16 hover:bg-gray-100 text-3xl cursor-pointer   ">%</button>
+          <button class="border w-16 h-16 hover:bg-gray-100 text-3xl cursor-pointer   ">0</button>
+          <button class="border w-16 h-16 hover:bg-gray-100 text-3xl cursor-pointer   ">*</button>
+          <button class="border w-16 h-16 hover:bg-gray-100 text-3xl cursor-pointer   ">=</button>
+
+        </div>
+
+
+       </div>
+    </div>
+    <script src="calculator.js"></script>
+  </body>
+</html>
